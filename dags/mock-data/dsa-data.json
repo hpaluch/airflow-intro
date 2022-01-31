@@ -1,0 +1,9 @@
+[
+	{"title": "DSA-5063 uriparser & B", "link": "https://www.debian.org/security/2022/dsa-5063", "updated": "2022-01-26 & B"},
+      	{"title": "DSA-5062 nss <", "link": "https://www.debian.org/security/2022/dsa-5062", "updated": "2022-01-25 <"},
+       	{"title": "DSA-5061 wpewebkit >", "link": "https://www.debian.org/security/2022/dsa-5061", "updated": "2022-01-25 >"},
+       	{"title": "DSA-5060 webkit2gtk \"", "link": "https://www.debian.org/security/2022/dsa-5060", "updated": "2022-01-25 \""},
+       	{"title": "DSA-5059 policykit-1 ' ", "link": "https://www.debian.org/security/2022/dsa-5059", "updated": "2022-01-25 ' "},
+       	{"title": "DSA-5058 openjdk-17", "link": "https://www.debian.org/security/2022/dsa-5058", "updated": "2022-01-24"}
+]
+

@@ -46,4 +46,5 @@ Now run tests with:
 Running `bash_template` dag immediately:
 ```bash
 airflow dags test bash_template now
+airflow dags test email_template now
 ```

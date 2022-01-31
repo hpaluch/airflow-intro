@@ -18,7 +18,7 @@ def test_dagbag(dagbag):
     assert dagbag.import_errors == {}
 
 def test_dags_loaded(dagbag):
-    for dag_id in ['bash_template']:
+    for dag_id in ['bash_template', 'email_template']:
         dag = dagbag.get_dag(dag_id=dag_id)
         assert dag is not None
         assert dag.dag_id == dag_id

@@ -1,0 +1,11 @@
+{# email_template.html - template to send HTML e-mail from JSON data #}
+{% set json_filename = task_instance.xcom_pull(task_ids='prepare_html_email', key='email_json_file') %}
+{% set data = load_json(json_filename) %}
+<h1>There are {{ data | length }} new Debian Security Advisories!<h1>
+<ul>
+	{% for item in data %}
+	<li><a href='{{ item.link }}' target='debian'>{{ item.title | e }}</a> on {{item.updated | e }}</li>
+	{% endfor %}
+</ul>
+<!-- Template rendered by Jinja2 -->
+
